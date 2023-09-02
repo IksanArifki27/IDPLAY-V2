@@ -34,7 +34,7 @@ Route::get('/contact', function () {
 // Route::get('/products', function () {
 //     return view('products');
 // });
-Route::get('/products',[PaketController::class,'paketProduk']);
+// Route::get('/products',[PaketController::class,'paketProduk']);
 Route::get('/detail-product/{id}',[PaketController::class,'detailProduk']);
 Route::get('/view-category/{slug}',[PaketController::class,'viewCategory']);
 

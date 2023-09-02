@@ -12,7 +12,7 @@
                   <button class="button" data-filter=".seo">seo</button>
                   <button class="button" data-filter=".marketing">marketing</button>
             </div> --}}
-            <a href="/products" style="padding: 8px 16px;  color:white; border-radius:5px; font-size:34px;">🔙</a>
+            <a href="/" style="padding: 8px 16px;  color:white; border-radius:5px; font-size:34px;">🔙</a>
             <br><br>
              @if ($message = Session::get('error'))
                     <div class="alert alert-success alert-block">

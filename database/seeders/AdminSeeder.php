@@ -36,11 +36,9 @@ class AdminSeeder extends Seeder
            "remember_token" => Str::random(60)
         ]);
         DB::table('categories')->insert([
-            ["nama" => "Businness"],
-            ["nama" => "Design"],
-            ["nama" => "Development"],
-            ["nama" => "Seo"],
-            ["nama" => "Marketing"],
+            ["nama" => "Home"],
+            ["nama" => "Business"],
+            ["nama" => "Dedicated"],
         ]);
     }
 }

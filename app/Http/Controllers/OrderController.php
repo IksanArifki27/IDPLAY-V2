@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Cart;
+use App\Models\Category;
 use App\Models\Order;
 use App\Models\Paket;
 use Illuminate\Support\Str;
@@ -77,8 +78,10 @@ class OrderController extends Controller
 
    public function home(){
     // $orders = Order::paginate();
-
-    return view('index'); 
+    $Home = Category::firstWhere('nama','Home');
+    $Business = Category::firstWhere('nama','Business');
+    $Dedicated = Category::firstWhere('nama','Dedicated');
+    return view('index',compact('Home','Business','Dedicated') ); 
    }
 
    public function cekresijson(Request $request)  {

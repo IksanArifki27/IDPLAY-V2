@@ -8,7 +8,7 @@
                 <nav class="nav-desktop">
                     <ul class="menu-list">
                         <li ><a href="/" style="color:white">Home</a></li>
-                        <li><a href="/products" style="color:white">Produk</a></li>
+                        <li><a href="#paketProduct" style="color:white">Produk</a></li>
 
                         {{-- <li class="menu-parent"><a href="/products">Produk</a>
                             <ul class="sub-menu">

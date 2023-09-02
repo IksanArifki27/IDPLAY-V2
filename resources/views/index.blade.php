@@ -68,7 +68,7 @@
     </div>
     
     <!-- Banner Close -->
-    <div class="page-heading" >
+    <div class="page-heading" id="paketProduct">
         <div class="container">
             <h2>PILIHAN PAKET</h2>
         </div>
@@ -80,7 +80,7 @@
                 <div class="owl-one owl-carousel">
                     <div class="box-wrap" itemprop="event" itemscope itemtype=" http://schema.org/Course">
                         <div class="img-wrap" itemprop="image"><img src="images/home-package.png" alt="courses picture"></div>
-                            <a href="/products" class="learn-desining-banner" itemprop="name">HOME</a>
+                            <a href="/view-category/{{$Home->id}}" class="learn-desining-banner" itemprop="name">HOME</a>
                         <div class="box-body" itemprop="description">
                             <p><b>Menghadirkan layanan internet dan hiburan terbaik di rumah Anda.
                                Kecepatan Up to 10 Mbps.</b>
@@ -95,7 +95,7 @@
 
                     <div class="box-wrap" itemprop="event" itemscope itemtype=" http://schema.org/Course">
                         <div class="img-wrap"  itemprop="image"><img src="images/business-package.png" alt="courses picture"></div>
-                            <a href="/products" class="learn-desining-banner" itemprop="name">BUSINESS</a>
+                            <a href="/view-category/{{$Business->id}}" class="learn-desining-banner" itemprop="name">BUSINESS</a>
                         <div class="box-body" itemprop="description">
                             <p><b>Memberikan layanan terbaik untuk perusahaan dan perkantoran SOHO 
                                 (Smart Office & Home Office). Kecepatan Up to 100 Mbps.</b>
@@ -107,10 +107,9 @@
                             </section>
                         </div>
                     </div>
-
                     <div class="box-wrap" itemprop="event" itemscope itemtype=" http://schema.org/Course">
                         <div class="img-wrap"  itemprop="image"><img src="images/dedicated-package.png" alt="courses picture"></div>
-                            <a href="/products" class="learn-desining-banner" itemprop="name">DEDICATED</a>
+                            <a href="/view-category/{{$Dedicated->id}}" class="learn-desining-banner" itemprop="name">DEDICATED</a>
                         <div class="box-body" itemprop="description">
                             <p><b>Menghadirkan layanan terbaik dengan layanan dan kecepatan premium. 
                                 Kecepatan Up to 1-10 Gbps.</b>
